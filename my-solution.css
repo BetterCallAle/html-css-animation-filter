@@ -129,7 +129,7 @@
    position:relative;
 }
 
-.ex-12-top-white{
+.ex-12-top-white, .ex-12-bottom-white{
     position: absolute;
 }
 
@@ -172,3 +172,7 @@
         right: 20%;
     }
 }
+
+/* ESERCIZIO 13 */
+
+
