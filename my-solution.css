@@ -60,3 +60,15 @@
 .ex-7-img:hover{
     filter: grayscale(1) sepia(.5);
 }
+
+/* ESERCIZIO 8 */
+.ex-8-img{
+    transition: all 1s linear;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: sepia(.8) grayscale(.5);
+}
+
+/* ESERCIZIO 9 */
