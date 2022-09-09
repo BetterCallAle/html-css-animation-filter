@@ -174,5 +174,88 @@
 }
 
 /* ESERCIZIO 13 */
+.ex-13-button{
+    position:relative;
+}
 
+
+.ex-13-button:hover .ex-13-top-white{
+    position: absolute;
+    animation-name: around-top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    position: absolute;
+    animation-name: around-bottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes around-top{
+    0%{
+        top: -10px;
+        left:10%;
+    }
+
+    30%{
+        top: -10px;
+        left: 90%
+    }
+
+    50%{
+        top: 100%;
+        left: 90%;
+    }
+
+    80%{
+        top: 100%;
+        left: 0%;
+    }
+
+    90%{
+        top: -10px;
+        left: -10%;
+    }
+
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+
+}
+
+@keyframes around-bottom{
+    0%{
+        bottom: -10px;
+        right:20%;
+    }
+
+    30%{
+        bottom: -10px;
+        right: 80%
+    }
+
+    50%{
+        bottom: 100%;
+        right: 80%;
+    }
+
+    80%{
+        bottom: 100%;
+        right: 0%;
+    }
+
+    90%{
+        bottom: -10px;
+        right: -20%;
+    }
+
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+}
 
