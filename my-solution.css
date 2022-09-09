@@ -1,6 +1,6 @@
 /* ESERCIZIO 1 */
 .ex-1-square{
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .ex-1-square:hover{
@@ -8,3 +8,12 @@
 }
 
 /* ESERCIZIO 2 */
+.ex-2-square{
+    transition: all 1s linear;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* ESERCIZIO 3 */
