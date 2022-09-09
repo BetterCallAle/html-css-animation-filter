@@ -102,3 +102,26 @@
 }
 
 /* ESERCIZIO 11 */
+
+.ex-11-icon:hover{
+    animation-name: rotate-2, rotate-3;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate-2{
+    
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(270deg);
+    }
+
+    60%{
+        transform: rotate(0deg);
+    }
+}
+
+/* ESERCIZIO 12 */
